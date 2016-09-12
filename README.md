@@ -26,7 +26,7 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 
 2. Use the same approach to select the element that contains the photo of the sky and change the `src` attribute to another picture URL of your choosing.
 
-Answer: $('#left-image img').attr('src','http://www.planwallpaper.com/static/images/dog-05_QiVZPIN.jpg');
+  Answer: $('#left-image img').attr('src','http://www.planwallpaper.com/static/images/dog-05_QiVZPIN.jpg');
 
 
 3. Select the heading that says "Panda the Bear" and change it to your own name. (hint: use [text()](http://api.jquery.com/text/))
@@ -42,9 +42,17 @@ $('#employment h3').prepend(icon);
 
 5. Panda the Bear is lying about their skills!  Take the "time travel" skill off the page to satisfy your personal sense of justice.  Use your googling and docs-skimming skillz to find a jQuery function that will allow you to remove elements from the DOM.  (hint: there are multiple ways of doing this, but the [parent()](http://api.jquery.com/parent/) function might be useful when it comes to selecting the right element)
 
+
+$('#time-travel').parent().remove
+
+
 6. Change the colour of the body. (hint: use [css()](http://api.jquery.com/css/))
 
+  x = $('body').css('color', 'blue');
+
 7. Change the colour used by the `highlight` class.
+
+ $('.highlight').css('color','red');
 
 8. Change the font family of the h1 to 'monospace'.
 
