@@ -60,6 +60,8 @@ $('h1').css('font-family','monospace');
 
 9. Find a way to select the round icons in the sidebar and then change their colour.
 
+$('.action-icon-bg').css('background-color', 'yellow');
+
 10. Scroll down to the contact form.  Change the placeholder attribute of the name field to "identify yourself".
 
 11. Change the placeholder attribute of the message field to "state your business".
