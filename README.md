@@ -27,6 +27,7 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 2. Use the same approach to select the element that contains the photo of the sky and change the `src` attribute to another picture URL of your choosing.
 Answer: $('#left-image img').attr('src','http://www.planwallpaper.com/static/images/dog-05_QiVZPIN.jpg');
 3. Select the heading that says "Panda the Bear" and change it to your own name. (hint: use [text()](http://api.jquery.com/text/))
+$('.bio-info-name').text("Madhu");
 
 4. Select the heading that says "Employment" and change it to something else. (hint: use a [descendant selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors))
 
