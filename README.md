@@ -25,11 +25,20 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
  Answer:  $(".profile-image").attr("src","https://placekitten.com/200/300");
 
 2. Use the same approach to select the element that contains the photo of the sky and change the `src` attribute to another picture URL of your choosing.
+
 Answer: $('#left-image img').attr('src','http://www.planwallpaper.com/static/images/dog-05_QiVZPIN.jpg');
+
+
 3. Select the heading that says "Panda the Bear" and change it to your own name. (hint: use [text()](http://api.jquery.com/text/))
+
 $('.bio-info-name').text("Madhu");
 
 4. Select the heading that says "Employment" and change it to something else. (hint: use a [descendant selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors))
+
+
+var icon = $('.icon-suitcase');
+$('#employment h3').html('My jobs');
+$('#employment h3').prepend(icon);
 
 5. Panda the Bear is lying about their skills!  Take the "time travel" skill off the page to satisfy your personal sense of justice.  Use your googling and docs-skimming skillz to find a jQuery function that will allow you to remove elements from the DOM.  (hint: there are multiple ways of doing this, but the [parent()](http://api.jquery.com/parent/) function might be useful when it comes to selecting the right element)
 
