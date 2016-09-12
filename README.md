@@ -73,7 +73,11 @@ $('#message').attr('placeholder','state your business');
 
 12. Give the name field [a "value" attribute](http://www.w3schools.com/tags/att_input_value.asp) of "your nemesis".
 
+$('#name').attr('value', 'your nemesis');
+
 13. Change the value attribute of the email field to "koalathebear@gmail.com".
+
+ $('#email').attr('value', 'koalathebear@gmail.com');
 
 14. Change the value of the submit button on the contact form to "En garde!".
 
