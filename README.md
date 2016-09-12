@@ -21,11 +21,11 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 1. Select the element that contains the profile image (hint: look for the class).  Change the `src` attribute so it points to a picture of your choosing instead (hint: use [attr()](http://api.jquery.com/attr/)).
 
   PROTIP: use the inspector to learn the dimensions of the current profile image and use a placeholder image service such as [Place Kitten](https://placekitten.com/) to get an image of the same size.
-Solution:
-  $(".profile-image").attr("src","https://placekitten.com/200/300");
+
+ Answer:  $(".profile-image").attr("src","https://placekitten.com/200/300");
 
 2. Use the same approach to select the element that contains the photo of the sky and change the `src` attribute to another picture URL of your choosing.
-
+Answer: $('#left-image img').attr('src','http://www.planwallpaper.com/static/images/dog-05_QiVZPIN.jpg');
 3. Select the heading that says "Panda the Bear" and change it to your own name. (hint: use [text()](http://api.jquery.com/text/))
 
 4. Select the heading that says "Employment" and change it to something else. (hint: use a [descendant selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors))
